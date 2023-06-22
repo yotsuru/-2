@@ -2,7 +2,11 @@
 <% @lists.each do |list| %>
 
   <p>Title</p>
-  <span><%= list.title %></span>
+   <span>
+   <%= link_to list.title, "/lists/#{list.id}" %>
+   </span>
   <p>Body</p>
-  <span><%= list.body %></span>
+    <span>
+    <%= link_to list.body, "/lists/#{list.id}" %>
+    </span>
 <% end %>
