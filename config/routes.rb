@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   
   get 'lists' => 'lists#index'
   # 'lists/:id'=>'lists#show'
-  get 'lists/edit'
+  #get 'lists/edit'
   get '/top'=>'homes#top'
   get 'lists/:id' => 'lists#show', as: 'list'
   get 'lists/:id/edit' => 'lists#edit', as: 'edit_list'
