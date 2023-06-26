@@ -37,6 +37,10 @@ td {
   font-size: 15px;
 }
 
+.error_message {
+  color: red;
+}
+
 .flexbox{
   display:flex;
 }
