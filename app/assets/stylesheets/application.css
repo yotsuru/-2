@@ -60,7 +60,13 @@ td {
   margin-top: 20px;
 }
   
+.create_bottom {
+  position: absolute;
+  margin-top: 20px;
+}
+
 p {
   line-height: 8;
   display: inline;
 }
+
