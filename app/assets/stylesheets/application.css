@@ -18,3 +18,49 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  margin: 40px;
+}
+
+thead {
+  text-align: center;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+.notice {
+  color: green;
+  font-size: 15px;
+}
+
+.flexbox{
+  display:flex;
+}
+
+.edit_bottom {
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.back_bottom {
+  margin-top: auto;
+}
+
+.show_bottom {
+  margin-top: 80px;
+  margin-right: 30px;
+}
+
+.update_bottom {
+  position: absolute;
+  margin-top: 20px;
+}
+  
+p {
+  line-height: 8;
+  display: inline;
+}

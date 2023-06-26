@@ -1,4 +1,4 @@
-<div>
+<div class="notice">
     <%= flash[:notice] %>
 </div>
 
@@ -8,5 +8,6 @@
 <h4>Body</h4>
 <p><%= @book.body %></p>
 
-<%= link_to "Edit", edit_book_path(@book.id) %>
-<%= link_to "Back", books_path %>
+<div class="flexbox">
+  <div class="edit_bottom"><%= link_to "Edit", edit_book_path(@book.id) %></div>
+  <div class="back_bottom"><%= link_to "Back", books_path %></div>
